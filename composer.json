@@ -1,0 +1,43 @@
+{
+    "name": "mphpmaster/laravel-model-translation-helpers",
+    "description": "Laravel model translation helpers.",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "model",
+        "translation",
+        "helper"
+    ],
+    "require": {
+        "php": ">=8.1",
+        "laravel/framework": ">=8",
+        "laravel/helpers": "^1.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mPhpMaster",
+            "email": "59211285+mPhpMaster@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MPhpMaster\\LaravelModelTranslationHelpers\\": "src/"
+        },
+        "files": [
+            "src/Helpers/Trans.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MPhpMaster\\LaravelModelTranslationHelpers\\Providers\\HelperProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "version": "1.0.0"
+}
